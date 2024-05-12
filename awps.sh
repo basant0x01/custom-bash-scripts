@@ -1,5 +1,6 @@
 #!/bin/bash
 # Author: Basant Karki (basant0x01)
+# Tool: Advance Version of dirsearch
 # Usage: ./awps.sh -l subdomains.txt
 
 # Default values for parameters
