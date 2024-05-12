@@ -3,5 +3,6 @@ Here i have added my personal custom bash script for bugbounties. You can also u
 
 ## Tools
 
-asps - Modified version of dirsearch that accepts lists of subdomains.
-sublyzer - Advance subdomains enumeration script that uses list of tools ( findomain, sublsit3r, subfinder & altdns ) to generate list of subdomains
+`asps` - Modified version of dirsearch that accepts lists of subdomains.
+
+`sublyzer` - Advance subdomain enumeration script that uses list of tools ( findomain, sublsit3r, subfinder & altdns ) to generate huge list of subdomains. And use httpx to validate live domains.
