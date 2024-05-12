@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Basant Karki (basant0x01)
-# Usage: ./your_script.sh -l custom_subdomains.txt
+# Usage: ./awps.sh -l custom_subdomains.txt
 
 # Default values for parameters
 subdomain_file=""
