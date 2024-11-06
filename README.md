@@ -1,7 +1,7 @@
 # My Personal custom-bash-scripts
-Here i have added my personal custom bash script for bugbounties. You can also use the tools for your testing purpose.
+Here i have added my personal custom bash script for Security Assessment's. You can also use the tools for your testing purpose.
 
-## Tools
+## Tools / Script
 
 `asps` - Modified version of dirsearch that accepts lists of subdomains.
 
