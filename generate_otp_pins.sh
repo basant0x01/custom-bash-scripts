@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Scripted by basant0x01
 # Ask user for the length of OTP pin
 echo "Please enter the length of the OTP pin:"
 read length
@@ -26,8 +26,5 @@ for ((i=0; i<total_pins; i++)); do
     printf "%0${length}d\n" $i >> "$output_file"
 done
 
-# Output success message
-echo "All possible OTP pins generated and saved to $output_file."
-
-# Optionally, display the first few generated pins
-head -n 10 "$output_file"
+# Display the total number of OTPs generated
+echo "Total OTPs generated: $total_pins"
