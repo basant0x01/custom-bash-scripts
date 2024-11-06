@@ -7,4 +7,4 @@ Here i have added my personal custom bash script for bugbounties. You can also u
 
 `sublyzer` - Advance subdomain enumeration script that uses list of tools ( findomain, sublsit3r, subfinder & altdns ) to generate huge list of subdomains. And use httpx to validate live domains.
 
-`generate_otp_pins.sh` - Bash Script that generate's otp pins according to the given length.
+`generate_otp_pins.sh` - Bash Script that generate's otp pins according to the given length. The main purpose of the script is to generate OTP pins to perform bruteforce attack.
