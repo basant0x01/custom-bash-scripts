@@ -31,6 +31,6 @@ fi
 # Loop through each subdomain in the file and run dirsearch
 while read -r subdomain; do
     echo "Scanning $subdomain..."
-    dirsearch -u "$subdomain" --max-rate=300 -t 100 --force-recursive -i 200 --random-agent -r --deep-recursive --quiet
+    dirsearch -u "$subdomain" --max-rate=300 -t 100 -i 200 --random-agent --quiet
     echo "Scan for $subdomain completed."
 done < "$subdomain_file"
